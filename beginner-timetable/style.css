@@ -1,0 +1,44 @@
+body {
+    background-color: lightyellow;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.add-box {
+    border: 2px solid black;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.add-box label {
+    display: block;
+    margin-top: 10px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightblue;
+}
+
+td {
+    height: 40px;
+    width: 15%;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

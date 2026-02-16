@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Timetable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My School Timetable</h1>
+
+    <div class="add-box">
+        <h3>Add a New Class</h3>
+        <label>Subject:</label>
+        <input type="text" id="subjectInput">
+        
+        <label>Day:</label>
+        <select id="daySelect">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+        </select>
+
+        <label>Time:</label>
+        <input type="time" id="timeInput">
+
+        <button onclick="addClass()">Add to List</button>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody id="timetableBody">
+            <!-- JavaScript will put rows here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
