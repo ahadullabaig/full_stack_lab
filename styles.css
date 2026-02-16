@@ -1,0 +1,31 @@
+body
+{
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: rgb(176, 13, 62);
+	background-color: #e086ba;
+	margin: 0;
+	padding-top: 50px;
+}
+
+h1
+{
+	color: #cc063e;
+}
+
+#message
+{
+	margin: 20px;
+	font-size: 18px;
+}
+
+button
+{
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
