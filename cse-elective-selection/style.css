@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6f0; /* Creamy pastel background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,57 +9,75 @@ body {
 }
 
 .container {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px; /* Softer rounded corners */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     width: 450px;
     text-align: center;
+    border: 1px solid #fce4ec; /* Subtle pink border */
 }
 
 h1 {
-    color: #333;
-    font-size: 24px;
+    color: #8d7b7b; /* Soft muted brown/gray */
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
 p {
-    color: #666;
-    font-size: 14px;
+    color: #a39393;
+    font-size: 15px;
+    margin-bottom: 25px;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #8d7b7b;
+    font-size: 14px;
 }
 
 input, select {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #f3e5f5; /* Light lavender border */
+    border-radius: 12px;
+    background-color: #fafafa;
+    color: #555;
+    font-size: 14px;
     box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ffc1cc; /* Pastel pink focus */
+    background-color: #fff;
 }
 
 button {
-    background-color: #28a745;
+    background-color: #ffc1cc; /* Pastel Pink button */
     color: white;
-    padding: 10px 20px;
+    padding: 14px;
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor: pointer;
     width: 100%;
     font-size: 16px;
-    margin-top: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 193, 204, 0.4);
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #ffafbd;
 }
 
 .hidden {
@@ -67,10 +85,11 @@ button:hover {
 }
 
 #result {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #e2f3e5;
-    border: 1px solid #c3e6cb;
-    border-radius: 5px;
-    color: #155724;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #f3e5f5; /* Light lavender background for result */
+    border-radius: 15px;
+    color: #7b1fa2;
+    text-align: left;
+    line-height: 1.6;
 }
