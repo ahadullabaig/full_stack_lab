@@ -1,7 +1,8 @@
 document.getElementById('electiveForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const name = document.getElementById('studentName').value;
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phoneNumber').value;
     const gender = document.getElementById('gender').options[document.getElementById('gender').selectedIndex].text;
@@ -12,7 +13,8 @@ document.getElementById('electiveForm').addEventListener('submit', function(even
 
     const summaryText = `
         <strong>Submission Details:</strong><br>
-        Name: ${name}<br>
+        First Name: ${firstName}<br>
+        Last Name: ${lastName}<br>
         Email: ${email}<br>
         Phone: ${phone}<br>
         Gender: ${gender}<br>
